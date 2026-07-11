@@ -65,7 +65,7 @@ if page == "Sales Overview":
 
     st.subheader("Monthly Sales Trend")
 
-    path = "monthly_sales_trend.png"
+    path = "charts/monthly_sales_trend.png"
 
     if os.path.exists(path):
         st.image(path, use_container_width=True)
